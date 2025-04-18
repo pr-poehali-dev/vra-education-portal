@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Cube3d, ArrowLeft } from "lucide-react";
+import { Cube, ArrowLeft } from "lucide-react";
 
 const NotFound = () => {
   return (
@@ -11,7 +11,7 @@ const NotFound = () => {
       </div>
       
       <div className="relative z-10 max-w-md mx-auto">
-        <Cube3d className="h-24 w-24 text-vra-primary mx-auto mb-8 animate-float" />
+        <Cube className="h-24 w-24 text-vra-primary mx-auto mb-8 animate-float" />
         
         <h1 className="text-8xl font-bold mb-6 gradient-text">404</h1>
         <h2 className="text-3xl font-semibold mb-4">Страница не найдена</h2>
