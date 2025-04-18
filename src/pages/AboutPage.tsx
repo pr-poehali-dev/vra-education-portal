@@ -36,7 +36,7 @@ const AboutPage = () => {
                 <div className="w-full h-full rounded-lg bg-gradient-to-r from-vra-secondary to-vra-primary flex items-center justify-center">
                   <div className="text-white text-center">
                     <div className="text-xs">Основана</div>
-                    <div className="text-xl font-bold">2021</div>
+                    <div className="text-xl font-bold">2031</div>
                     <div className="text-xs">году</div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ const AboutPage = () => {
                   <History className="h-3 w-3 text-vra-primary" />
                 </div>
                 <div className="ml-auto mr-8 md:ml-8 md:mr-auto w-full md:w-1/2 p-6 bg-background/70 backdrop-blur-sm rounded-xl border border-vra-primary/20 md:text-right">
-                  <h3 className="font-semibold text-xl mb-2">2021 год</h3>
+                  <h3 className="font-semibold text-xl mb-2">2031 год</h3>
                   <p className="text-muted-foreground">
                     Основание Virtual Reality Academy группой технологических предпринимателей и педагогов-новаторов. Разработка первого VR-курса по биологии.
                   </p>
@@ -145,7 +145,7 @@ const AboutPage = () => {
                   <History className="h-3 w-3 text-vra-primary" />
                 </div>
                 <div className="ml-8 w-full md:w-1/2 p-6 bg-background/70 backdrop-blur-sm rounded-xl border border-vra-primary/20 text-left">
-                  <h3 className="font-semibold text-xl mb-2">2022 год</h3>
+                  <h3 className="font-semibold text-xl mb-2">2034 год</h3>
                   <p className="text-muted-foreground">
                     Получение лицензии на образовательную деятельность. Запуск первой программы высшего образования с использованием VR технологий.
                   </p>
@@ -157,7 +157,7 @@ const AboutPage = () => {
                   <History className="h-3 w-3 text-vra-primary" />
                 </div>
                 <div className="ml-auto mr-8 md:ml-8 md:mr-auto w-full md:w-1/2 p-6 bg-background/70 backdrop-blur-sm rounded-xl border border-vra-primary/20 md:text-right">
-                  <h3 className="font-semibold text-xl mb-2">2023 год</h3>
+                  <h3 className="font-semibold text-xl mb-2">2037 год</h3>
                   <p className="text-muted-foreground">
                     Открытие школьного отделения. Разработка собственной платформы VR-обучения. Первый выпуск студентов бакалавриата.
                   </p>
@@ -169,7 +169,7 @@ const AboutPage = () => {
                   <History className="h-3 w-3 text-vra-primary" />
                 </div>
                 <div className="ml-8 w-full md:w-1/2 p-6 bg-background/70 backdrop-blur-sm rounded-xl border border-vra-primary/20 text-left">
-                  <h3 className="font-semibold text-xl mb-2">2024 год</h3>
+                  <h3 className="font-semibold text-xl mb-2">2040 год</h3>
                   <p className="text-muted-foreground">
                     Запуск программ магистратуры. Международная аккредитация. Более 1000 студентов на всех образовательных программах.
                   </p>
@@ -197,11 +197,11 @@ const AboutPage = () => {
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 border-2 border-vra-primary/30">
                 <img 
                   src="/placeholder.svg" 
-                  alt="Алексей Смирнов" 
+                  alt="Барковский Кирилл" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Алексей Смирнов</h3>
+              <h3 className="text-xl font-semibold mb-1">Барковский Кирилл</h3>
               <p className="text-vra-primary mb-3">Основатель и CEO</p>
               <p className="text-muted-foreground text-sm">
                 Технологический предприниматель с опытом работы в EdTech более 15 лет
@@ -212,11 +212,11 @@ const AboutPage = () => {
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 border-2 border-vra-primary/30">
                 <img 
                   src="/placeholder.svg" 
-                  alt="Елена Волкова" 
+                  alt="Ветошкин Вячеслав" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Елена Волкова</h3>
+              <h3 className="text-xl font-semibold mb-1">Ветошкин Вячеслав</h3>
               <p className="text-vra-primary mb-3">Директор по образованию</p>
               <p className="text-muted-foreground text-sm">
                 Доктор педагогических наук, автор методик VR-образования
@@ -227,11 +227,11 @@ const AboutPage = () => {
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 border-2 border-vra-primary/30">
                 <img 
                   src="/placeholder.svg" 
-                  alt="Михаил Ковалев" 
+                  alt="Ламбин Степан" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Михаил Ковалев</h3>
+              <h3 className="text-xl font-semibold mb-1">Ламбин Степан</h3>
               <p className="text-vra-primary mb-3">CTO</p>
               <p className="text-muted-foreground text-sm">
                 Ведущий разработчик VR/AR решений, ранее руководил R&D в Samsung
@@ -262,34 +262,6 @@ const AboutPage = () => {
               <div className="text-4xl font-bold mb-2">96%</div>
               <p className="text-gray-300">Трудоустройство выпускников</p>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Partners Section */}
-      <section className="py-16 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Наши <span className="gradient-text">партнеры</span>
-            </h2>
-            <p className="max-w-2xl mx-auto text-muted-foreground">
-              Компании и организации, с которыми мы сотрудничаем
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-              <div key={item} className="flex items-center justify-center p-6 bg-background/70 backdrop-blur-sm rounded-xl border border-vra-primary/20">
-                <div className="w-24 h-24 flex items-center justify-center">
-                  <img 
-                    src="/placeholder.svg" 
-                    alt={`Partner ${item}`} 
-                    className="max-w-full max-h-full opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
