@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Cube, ArrowLeft } from "lucide-react";
+import { Box, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -35,7 +35,7 @@ const LoginPage = () => {
           <div className="relative bg-background/90 backdrop-blur-xl p-8 rounded-xl border border-vra-primary/20 shadow-xl">
             <div className="text-center mb-8">
               <div className="inline-flex items-center justify-center mb-4">
-                <Cube className="h-10 w-10 text-vra-primary" />
+                <Box className="h-10 w-10 text-vra-primary" />
               </div>
               <h1 className="text-2xl font-bold gradient-text">Вход в VRA</h1>
               <p className="text-muted-foreground mt-2">

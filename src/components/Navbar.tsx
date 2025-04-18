@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Cube, MenuIcon, X } from "lucide-react";
+import { Box, MenuIcon, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <Cube className="h-8 w-8 text-vra-primary" />
+              <Box className="h-8 w-8 text-vra-primary" />
               <span className="font-bold text-xl gradient-text">VRA</span>
             </Link>
           </div>

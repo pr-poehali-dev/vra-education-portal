@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Cube, Mail, MapPin, Phone } from "lucide-react";
+import { Box, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Cube className="h-8 w-8 text-vra-primary" />
+              <Box className="h-8 w-8 text-vra-primary" />
               <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-vra-primary to-vra-accent">
                 VRA
               </span>
